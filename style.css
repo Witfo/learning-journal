@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAV BAR - 490 X 1114 */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 3.6875em;
+}
+
+h3{
+    font-size: 1em;
+    color: #0E0E0E;
+    font-weight: bold;
+}
+
+#logo{
+    margin-left: 1.25em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+li{
+    color: #090909;
+    font-weight: bold;
+}
+
+i{
+    color: #0E0E0E; /* red */
+    font-size: 23px;
+}
+
+/* BODY */
+
+.main-article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+
+.text-overlay{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 90px 0 0 0;
+    padding: 20px;
+    position:absolute;
+    color: #fff;
+    text-shadow: 2px 2px 0 black;
+}
