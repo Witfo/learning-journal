@@ -6,6 +6,7 @@
 
 body{
     min-width: 420px;
+    min-height: auto;
 }
 
 /* NAV BAR - 490 X 1114 */
@@ -85,11 +86,15 @@ span {
   padding: 0.5em 0 0.5em 0;
 }
 
+span{
+    display: block;
+}
+
 .view-more {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1.75em;
+  margin: 1.75em 0 0 0;
   text-decoration: underline;
 }
 
@@ -110,8 +115,34 @@ footer{
     height: 105px;
     width: 100%;
     color: #ECECEC;
+    margin-top: 1.5em;
 }
 
 h5{
     font-weight: lighter;
+}
+
+/* MAIN ARTICLE PAGE */
+
+.bold{
+    font-weight: bold;
+}
+
+.main-img{
+    margin: 2em 0 2em 0;
+}
+
+.main-article-page-two h1{
+    margin: .5em 0 .5em 0;
+}
+
+.main-article-page-two p{
+    color: #151515;
+}
+
+.recent-posts{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    color:#000;
 }
